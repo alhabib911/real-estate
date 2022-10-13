@@ -4,10 +4,10 @@ import Home from './Components/Home/Home';
 
 function App() {
   return (
-    <div>
+    <div className='bg-[#F8F7FD] h-full'>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
-        <Route path='/home' element={<Home/>}></Route>
+        <Route path='/rent' element={<Home/>}></Route>
       </Routes>
     </div>
   );
