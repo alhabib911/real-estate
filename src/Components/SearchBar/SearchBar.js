@@ -109,7 +109,7 @@ const SearchBar = () => {
             {/* {rentHouse?.length} */}
             <div className="grid grid-cols-3 mx-auto gap-8 pt-16">
                 {
-                    rentHouse.map(rent => <HouseCard
+                    rentHouse.slice(0, 6).map(rent => <HouseCard
                         rent={rent}
                     ></HouseCard>
                     )
